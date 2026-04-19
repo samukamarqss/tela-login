@@ -33,6 +33,13 @@ O projeto foi desenvolvido com foco em estilização e marcação semântica:
 ## 📸 Demonstração
 
 <img width="1919" height="909" alt="Captura de tela 2026-04-19 170755" src="https://github.com/user-attachments/assets/759f0f3c-629d-43ab-be7b-a3a3c07abe3e" />
+<br>
+<hr>
+<br>
+
+
+https://github.com/user-attachments/assets/498f79d5-d5a7-4b59-896f-e6db470398db
+
 
 
 ## 💻 Como rodar o projeto localmente
