@@ -1,0 +1,29 @@
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-card {
+  height: 600px;
+  width: 400px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.login-card h2 {
+  color: #1a1a1a;
+}
+
+.avatar
+{
+  height: 48px;
+    width: 48px;
+  border-radius: 50%;
+padding: px;
+}
+
