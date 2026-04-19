@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tela de Login</title>
-    <link rel="stylesheet" href="styles.css" />
+     <link rel="stylesheet" href="./styles/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -12,27 +12,53 @@
   </head>
   <body>
 
-    <div class="login-card">
 
-      
-      <div class="hero"><h2>Que bom te ver novamente!</h2></div>
+    <div class="login-wrapper">
 
-      <div class="form-login">
-        <form action="" method="post">
-          <label for="username">Usuário:</label><br />
-          <input type="text" id="username" name="username" /><br /><br />
-          <label for="password">Senha:</label><br />
-          <input type="password" id="password" name="password" /><br /><br />
-          <input class="entrar" type="submit" value="Entrar" />
-        </form>
-      </div>
+      <!-- PAINEL ESQUERDO: formulário de login -->
+      <div class="login-card">
 
-      <div class="rodape">
-        <footer>
+        <div class="hero">
+          <h2>Que bom te ver novamente!</h2>
+          <p class="subtitulo">Insira suas credenciais para continuar.</p>
+        </div>
+
+        <div class="form-login">
+          <form action="login-feito.html">
+
+            <div>
+              <label for="username">Usuário:</label>
+              <input type="text" id="username" name="username" placeholder="Exemplo: samuel.marques" />
+            </div>
+
+            <div class="password-field">
+              <label for="password">Senha:</label>
+              <input type="password" id="password" name="password" placeholder="••••••••" />
+            </div>
+
+             <button class="entrar"  type="submit">Realizar login</button>
+            
+          </form>
+        </div>
+
+        <div class="rodape">
+          <footer>
             <p>&copy; Samuca - Todos os direitos reservados.</p>
-        </footer>
+          </footer>
+        </div>
+
       </div>
+      <!-- FIM painel esquerdo -->
+
+      <!--
+        PAINEL DIREITO: a imagem é aplicada via CSS como
+        background-image no seletor .login-panel-right.
+        O caminho 'img/imagem.png' parte da pasta do projeto.
+      -->
+      <div class="login-panel-right"></div>
+      <!-- FIM painel direito -->
 
     </div>
+
   </body>
 </html>
