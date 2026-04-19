@@ -13,17 +13,32 @@ body {
   background-color: #fff;
   text-align: center;
   border-radius: 20px;
+  flex-direction: column;
+  position: relative;
+  display: flex;
+
+
+
+
 }
 
 .login-card h2 {
   color: #1a1a1a;
 }
 
-.avatar
-{
-  height: 48px;
-    width: 48px;
-  border-radius: 50%;
-padding: px;
+.hero {
+  padding-top: 20px;
 }
 
+.avatar {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
+
+.rodape {
+  bottom: 0;
+  position: absolute;
+  text-align: left;
+
+}
