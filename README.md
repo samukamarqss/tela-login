@@ -37,6 +37,6 @@ O projeto foi desenvolvido com foco em estilização e marcação semântica:
 
 ## 💻 Como rodar o projeto localmente
 
-1. Clone este repositório em sua máquina:
+1. **Clone este repositório:**
    ```bash
-   git clone [https://github.com/samukamarqss/tela-login](https://github.com/samukamarqss/tela-login)
+   git clone [https://github.com/samukamarqss/tela-login.git](https://github.com/samukamarqss/tela-login.git)
