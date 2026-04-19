@@ -2,7 +2,8 @@
 
 <p align="center">
   <img alt="Status do Projeto" src="https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge">
-  <img alt="Linguagens" src="https://img.shields.io/github/languages/count/samuelmarques/seu-repositorio?style=for-the-badge&color=purple">
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img alt="Licença" src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
 </p>
 
